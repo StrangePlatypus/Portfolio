@@ -1,0 +1,111 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "title": "Booki - Agence de voyage - HTML & CSS",
+            "description": "<strong>Durée :</strong> 2 semaines<br><strong>Outils utilisés :</strong> HTML5, CSS3, Figma, VS Code, Chrome DevTools<br><br><strong>Objectif du projet :</strong><br>À partir d’une maquette fournie sur Figma, j’ai développé une page d’accueil responsive en HTML et CSS, en respectant précisément les spécifications techniques et fonctionnelles.<br><br><strong>Ce que j’ai réalisé :</strong><ul><li>Intégration fidèle à la maquette fournie, au pixel près</li><li>Mise en page responsive (mobile, tablette, desktop) sans framework CSS</li><li>Validation du code HTML/CSS selon les standards du W3C</li><li>Respect des bonnes pratiques d’accessibilité et de structure sémantique</li><li>Utilisation intensive de Chrome DevTools pour le débogage et le peaufinage visuel</li></ul><br><br><strong>Défis rencontrés :</strong><br>La découverte du responsive design a été un vrai challenge. J’ai dû apprendre à jongler avec les media queries et les systèmes de mise en page (flexbox notamment), tout en maintenant une cohérence avec la maquette d’origine.<br><br><strong>Ce que j’en retiens :</strong><br>Ce premier projet m’a permis de poser des bases solides : traduire fidèlement une maquette en code, comprendre les exigences techniques du responsive et apprendre à produire un code propre, structuré et validé.",
+            "skills": [
+                "Intégrer du contenu conformément à une maquette avec HTML & CSS",
+                "Implémenter une interface responsive avec HTML & CSS",
+                "Versionner son projet avec Git et Github",
+                "Installer un environnement de développement front-end"
+            ],
+            "cover": "src/assets/images/booki_1.png",
+            "pictures": [
+                "src/assets/images/booki_1.png",
+                "src/assets/images/booki_2.png",
+                "src/assets/images/booki_3.png",
+                "src/assets/images/booki_4.png"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Sophie Bluel - Architecte d'intérieur - Javascript",
+            "description": "<strong>Durée :</strong> 2 semaines<br><strong>Outils utilisés :</strong> HTML5, CSS3, Javascript, API<br><br><strong>Objectif du projet :</strong><br> Améliorer l'interactivité d’une page web en utilisant JavaScript pour écouter les événements utilisateur (comme les clics) et effectuer des appels API pour interagir avec un backend.<br><br><strong>Ce que j’ai réalisé :</strong><br><ul><li>Mise en place des fonctionnalités interactives via JavaScript, permettant à la page de répondre aux actions de l’utilisateur.</li><li>Apprentissage des appels API pour ajouter, récupérer, modifier ou supprimer des données du backend en temps réel.</li><li>Intégration des événements JavaScript pour rendre la page dynamique et réactive (écoute des clics, des entrées de l’utilisateur, etc.).</li></ul><br><br><strong>Défis rencontrés :</strong><br> La prise en main de JavaScript a été un challenge, notamment avec les appels API et la gestion des données asynchrones. Il y a eu une grande quantité d’informations à assimiler en peu de temps, mais ce fut un apprentissage essentiel pour rendre une page vraiment dynamique.<br><br><strong>Ce que j’en retiens :</strong><br> Ce projet m’a permis de maîtriser les bases de JavaScript, d’approfondir la gestion des événements utilisateur et de comprendre les appels API, des compétences incontournables pour créer des applications web interactives.",
+            "skills": [
+                "Récupérer les données utilisateurs dans le Javascript via des formulaires",
+                "Manipuler les éléments du DOM avec Javascript",
+                "Gérer les événements utilisateurs avec Javascript"
+            ],
+            "cover": "src/assets/images/bluel_1.png",
+            "pictures": [
+                "src/assets/images/bluel_1.png",
+                "src/assets/images/bluel_2.png",
+                "src/assets/images/bluel_3.png",
+                "src/assets/images/bluel_4.png",
+                "src/assets/images/bluel_5.png",
+                "src/assets/images/bluel_6.png"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Kasa - Location entre particuliers  - React",
+            "description": "<strong>Durée :</strong> 2 semaines<br><strong>Outils utilisés :</strong> React, Vite, Sass, React-Router<br><br><strong>Objectif du projet :</strong><br>Développer l'application web <em>Kasa</em> de A à Z, en respectant la maquette fournie, en utilisant <strong>React</strong> pour la partie front-end, <strong>Vite</strong> pour la configuration, et <strong>Sass</strong> pour le style.<br><br><strong>Ce que j’ai réalisé :</strong><br><ul><li>Création de tous les composants nécessaires avec <strong>React</strong> et gestion de la navigation entre les pages grâce à <strong>React-Router</strong>.</li><li>Mise en place d'un code bien organisé, documenté et facilement maintenable, en veillant à respecter les bonnes pratiques de développement.</li><li>Utilisation de <strong>Sass</strong> pour la gestion des styles et application de diverses animations CSS pour rendre l’expérience utilisateur plus fluide.</li><li>Intégration d’une gestion de l’état de l’application (<strong>state management</strong>) pour rendre les composants interactifs.</li></ul><br><br><strong>Défis rencontrés :</strong><br>La gestion d'état avec <strong>React</strong> a été un petit challenge au début, mais après avoir bien compris le fonctionnement des hooks et des états dans React, j’ai pu surmonter cette difficulté. Cela m’a permis de mieux structurer mes composants et de rendre l’application plus réactive.<br><br><strong>Ce que j’en retiens :</strong><br>Ce projet m’a permis de maîtriser les bases de <strong>React</strong>, d'intégrer <strong>React-Router</strong> pour la navigation, et de mettre en place des animations CSS pour améliorer l'interactivité du site. J'ai aussi appris à mieux organiser mon code pour qu'il soit à la fois clair, maintenable et facilement évolutif. L’utilisation de <strong>Vite</strong> comme outil de build m’a également permis d’optimiser le développement et le rendu du projet.",
+            "skills": [
+                "Configurer la navigation entre les pages de l'application avec React Router",
+                "Initialiser une application avec Vite",
+                "Développer des éléments de l'interface d'un site web grâce à des composants React"
+            ],
+            "cover": "src/assets/images/kasa_1.png",
+            "pictures": [
+                "src/assets/images/kasa_1.png",
+                "src/assets/images/kasa_2.png",
+                "src/assets/images/kasa_3.png",
+                "src/assets/images/kasa_4.png"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Mon Vieux Grimoire - Notation de livres - Nodes.js",
+            "description": "<strong>Durée :</strong> 1 semaine et 2 jours<br><strong>Outils utilisés :</strong> Node.js, Express, MongoDB (Atlas), Mongoose<br><br><strong>Objectif du projet :</strong><br>Développer l’ensemble de la partie back-end d’un site de gestion de livres, sans maquette, avec un ensemble de spécifications fonctionnelles précises. Le but était de permettre la création d’utilisateurs, la connexion/déconnexion, et la gestion d’un système de bibliothèque avec notation.<br><strong>Ce que j’ai réalisé :</strong><ul><li>Création d’une base de données <strong>NoSQL</strong> avec MongoDB Atlas.</li><li>Mise en place d’une <strong>API REST</strong> complète avec <strong>Node.js et Express</strong>, en respectant les principes CRUD.</li><li>Authentification sécurisée via <strong>JWT</strong>, avec des routes protégées pour les utilisateurs connectés.</li><li>Système de gestion des livres permettant à un utilisateur :</li><ul><li>d’ajouter un livre,</li><li>de modifier ou supprimer uniquement les livres qu’il a lui-même ajoutés,</li><li>de noter les livres avec calcul automatique de la moyenne.</li></ul><li>Respect des bonnes pratiques de sécurité, configuration des <strong>CORS</strong>, et structuration claire du projet.</li></ul><strong>Défis rencontrés :</strong><br>Le plus gros challenge a été de bien comprendre et structurer les appels pour chaque élément (utilisateur, livres, notes, etc.) afin qu’ils soient sécurisés et fonctionnels selon les règles du projet.<br><br><strong>Ce que j’en retiens :</strong><br>Ce projet m’a permis de créer ma première <strong>API</strong> complète en partant de zéro, de me familiariser avec <strong>la programmation back-end</strong>, la gestion des <strong>middlewares</strong>, la sécurisation des routes, ainsi que l’intégration de <strong>MongoDB</strong> comme base de données. J’ai aussi appris à faire communiquer le front-end avec mon serveur grâce à une configuration correcte des CORS.",
+            "skills": [
+                "Implémenter une modèle logique de données conformément à la réglementation",
+                "Mettre en oeuvre des opérations CRUD de manière sécurisée",
+                "Stocker des données de manière sécurisée"
+            ],
+            "cover": "src/assets/images/grimoire_1.png",
+            "pictures": [
+                "src/assets/images/grimoire_1.png",
+                "src/assets/images/grimoire_2.png",
+                "src/assets/images/grimoire_3.png"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Nina Carducci - Photographe - Optimisation & debug",
+            "description": "<strong>Durée :</strong> 1 semaine de travail effectif<br><strong>Outils utilisés :</strong> JavaScript, DevTools (Lighthouse), extension WAVE<br><br><strong>Objectif du projet :</strong><br>Le projet consistait à travailler sur une base de code existante afin de corriger des bugs, améliorer l’accessibilité et optimiser les performances SEO d’un site RH. L’objectif final était d’obtenir une évaluation parfaite (100%) dans les quatre domaines évalués par Lighthouse : performance, accessibilité, bonnes pratiques et SEO.<br><br><strong>Ce que j’ai réalisé :</strong><br><ul><li>Analyse des erreurs et des axes d’amélioration via Lighthouse et WAVE.</li><li>Correction des bugs JavaScript présents dans le projet.</li><li>Refonte de certaines balises HTML pour améliorer la sémantique et l’accessibilité.</li><li>Optimisation des temps de chargement et des pratiques SEO jusqu’à atteindre 100% dans tous les scores Lighthouse.</li></ul><br><br><strong>Défis rencontrés :</strong><br>Aucun défi bloquant : grâce aux bons outils, l’analyse des problèmes et leur correction ont été assez fluides.<br><br><strong>Ce que j’en retiens :</strong><br>Ce projet m’a permis de découvrir en profondeur les outils d’audit de performance et d’accessibilité, et de m’initier à de bonnes pratiques SEO. Ces compétences seront essentielles pour rendre mes futurs sites accessibles à toutes et à tous.",
+            "skills": [
+                "Optimiser les performances d'un site web",
+                "Débugger un site web grâce aux Chrome DevTools",
+                "Rédiger un cahier de recette pour tester un site"
+            ],
+            "cover": "src/assets/images/nina_1.png",
+            "pictures": [
+                "src/assets/images/nina_1.png",
+                "src/assets/images/nina_2.png",
+                "src/assets/images/nina_3.png",
+                "src/assets/images/nina_4.png"
+            ]
+        },
+        {
+            "id": "6",
+            "title": "MenuMaker by Qwenta - Gestion de projet",
+            "description": "<strong>Durée :</strong><br>2 semaines<br><strong>Outils utilisés :</strong><br>Notion, Figma, Feedly, DailyDev, outils de bureautique<br><br><strong>Objectif du projet :</strong><br>Préparer et planifier le développement du site Menu Maker by Qwenta en l'absence du Product Owner, en produisant l’ensemble des livrables nécessaires au lancement du projet.<br><br><strong>Ce que j'ai réalisé :</strong><ul><li>Un fichier PDF de spécifications techniques (avec tableaux et justifications des choix)</li><li>Un tableau Kanban complet sur Notion (PDF exporté), incluant les estimations en story points</li><li>Une veille technique structurée autour de deux axes de curation</li><li>Un diaporama final de présentation du projet à destination du PO</li><li>Une analyse des maquettes et documents fonctionnels</li><li>Une sélection réfléchie d’outils et librairies adaptés au projet</li></ul><br><br><strong>Défis rencontrés :</strong><br>La gestion de projet était un domaine totalement nouveau pour moi. Structurer les spécifications techniques et mettre en place une veille efficace m’a demandé du temps et de la rigueur, surtout au début.<br><br><strong>Ce que j'en retiens :</strong><br>J’ai découvert la richesse et l’importance de la gestion de projet côté développeur. J’ai appris à créer des documents professionnels de spécifications techniques, à structurer un projet de manière agile, et à organiser une veille technologique pertinente. Ce projet m’a donné une vision concrète du travail préparatoire indispensable avant d’écrire la moindre ligne de code.",
+            "skills": [
+                "Suivre le déroulement du projet grâce à un outil de gestion de projet",
+                "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
+                "Découper une fonctionnalité en tâches pour préparer le développement",
+                "Présenter la solution technique",
+                "Mettre en place une méthode de veille technologique"
+            ],
+            "cover": "src/assets/images/gestion_1.png",
+            "pictures": [
+                "src/assets/images/gestion_1.png",
+                "src/assets/images/gestion_2.png",
+                "src/assets/images/gestion_3.png",
+                "src/assets/images/gestion_4.png",
+                "src/assets/images/gestion_5.png"
+            ]
+        }
+    ]
+}
