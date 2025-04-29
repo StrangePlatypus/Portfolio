@@ -1,7 +1,5 @@
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser'
-import env from 'react-dotenv'
-
 import BgVideo from "../components/backgroundVideo"
 
 
@@ -16,12 +14,12 @@ function Contact(){
         e.preventDefault();
 
         emailjs
-        .sendForm(env.SERVICE_ID, env.TEMPLATE_ID, form.current, {
-            publicKey: env.PUBLIC_KEY,
+        .sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, {
+            publicKey: import.meta.env.VITE_PUBLIC_KEY,
         })
         .then(
             () => {
-            console.log('SUCCESS!'+" "+env.SERVICE_ID+" "+env.TEMPLATE_ID+" "+env.PUBLIC_KEY);
+            console.log('SUCCESS!');
             setOkDisplay("block")
             form.current.reset()
             },

@@ -8,7 +8,6 @@ import './assets/styles/index.css'
 // Pages
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
-import Experience from './pages/Experience.jsx'
 import Projects from './pages/Projects.jsx'
 import Contact from './pages/Contact.jsx'
 
@@ -24,7 +23,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/a-propos' element={<About />} />
-        <Route path='/experience' element={<Experience />} />
         <Route path='/projets' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>

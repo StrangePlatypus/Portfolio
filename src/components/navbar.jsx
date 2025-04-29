@@ -37,20 +37,20 @@ function Navbar(){
     const closeDropdown = () => setIsOpen(false)
 
     return(
-        <div className="fixed left-2 top-2 z-2"> {isLargeViewport ? (
+        <div className="fixed left-2 top-2 z-10"> {isLargeViewport ? (
             // Is shown on screens equals or larger than 768px
-            <nav className='font-hahmlet fixed left-0 top-0 h-full w-[5vw] items-center p-2 flex flex-col backdrop-blur-xs bg-translucentwhite'>
+            <nav className='font-hahmlet fixed left-0 top-0 h-full w-[5vw] items-center p-2 flex flex-col backdrop-blur-xs bg-black/50 border-r border-stone-900/70'>
                 <img src={logo} alt="Initiales de Julie Poignant" className="logo h-10" />
                 <div className='text-[16px] tracking-widest grow flex flex-col justify-around'>
                     <Link to="/" className={`text-indigo-50 -rotate-90 hover:text-amber-500' ${location.pathname === "/" ? 'active_link' : ''}`}>Accueil</Link>
                     <Link to="/a-propos" className={`text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/a-propos" ? 'active_link' : ''}`}>À propos</Link>
-                    <Link to="/experience" className={`text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/experience" ? 'active_link' : ''}`}>Expérience</Link>
                     <Link to="/projets" className={`text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/projets" ? 'active_link' : ''}`}>Projets</Link>
                     <Link to="/contact" className={`text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/contact" ? 'active_link' : ''}`}>Contact</Link>
+                    <button to="/curriculum" className={`text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/curriculum" ? 'active_link' : ''}`}>CV <i className="fa-solid fa-download"></i></button>
                 </div>
                 <div className='text-indigo-50 font-light h-24 content-center flex flex-col justify-between py-4'>
-                    <a href="https://www.linkedin.com/in/julie-poignant/" className='hover:text-amber-500'><i className="fa-brands fa-linkedin fa-2xl"></i></a>
-                    <a href="https://github.com/StrangePlatypus?tab=repositories" className='hover:text-amber-500'><i className="fa-brands fa-square-github fa-2xl"></i></a>
+                    <a href="https://www.linkedin.com/in/julie-poignant/" target='_blank' className='hover:text-amber-500'><i className="fa-brands fa-linkedin fa-2xl"></i></a>
+                    <a href="https://github.com/StrangePlatypus?tab=repositories" target='_blank' className='hover:text-amber-500'><i className="fa-brands fa-square-github fa-2xl"></i></a>
                 </div>
             </nav>
         ) : (
@@ -61,12 +61,12 @@ function Navbar(){
                     <ul role='menu' className='text-left rounded-lg bg-black/40 backdrop-blur-lg p-2'>
                         <li><Link to="/" onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500' ${location.pathname === "/" ? 'active_link' : ''}`} role='menu-item'>Accueil</Link></li>
                         <li><Link to="/a-propos" onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500 ${location.pathname === "/a-propos" ? 'active_link' : ''}`} role='menu-item'>A propos</Link></li>
-                        <li><Link to="/experience" onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500 ${location.pathname === "/experience" ? 'active_link' : ''}`} role='menu-item'>Expérience</Link></li>
                         <li><Link to="/projets" onClick={closeDropdown} className={`my-2 text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/projets" ? 'active_link' : ''}`} role='menu-item'>Projets</Link></li>
                         <li><Link to="/contact" onClick={closeDropdown} className={`my-2 text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/contact" ? 'active_link' : ''}`} role='menu-item'>Contact</Link></li>
+                        <li><button to="/curriculum" onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500 ${location.pathname === "/curriculum" ? 'active_link' : ''}`} role='menu-item'>CV <i className="fa-solid fa-download"></i></button></li>
                         <li className='flex gap-4'>
-                            <a href="https://www.linkedin.com/in/julie-poignant/" className='text-indigo-50 hover:text-amber-500'><i className="fa-brands fa-linkedin fa-xl"></i></a>
-                            <a href="https://github.com/StrangePlatypus?tab=repositories" className='text-indigo-50 hover:text-amber-500'><i className="fa-brands fa-square-github fa-xl"></i></a>
+                            <a href="https://www.linkedin.com/in/julie-poignant/" target='_blank' className='text-indigo-50 hover:text-amber-500'><i className="fa-brands fa-linkedin fa-xl"></i></a>
+                            <a href="https://github.com/StrangePlatypus?tab=repositories" target='_blank' className='text-indigo-50 hover:text-amber-500'><i className="fa-brands fa-square-github fa-xl"></i></a>
                         </li>
                     </ul>
                 )}
