@@ -1,0 +1,14 @@
+{
+    "about": {
+        "presentation": "Jeune développeuse web de 28ans, j'ai enfin trouvé ma voie, le métier qui me fait vibrer.\n\nJ'ai passé plusieurs années à sillonner la France et divers postes, qui font de moi une personne complète, performante, et capable de s'adapter à tout type de situation.\n\nEtant actuellement à la recherche d'un poste je compte sur vous pour me contacter afin que nous puissions travailler ensembles, main dans la main, afin de créer des solutions innovantes et utiles à tous.",
+        "hardSkills": "Lors de ma formation de Développeur web avec OpenClassrooms, j’ai acquis les bases de JavaScript, Node.js et React. Je maîtrise également HTML5 et CSS3, que j’utilise avec aisance pour créer des interfaces claires et responsives. J’ai aussi eu l’occasion de manipuler une base de données MongoDB dans le cadre de projets pratiques.\n\nEn parallèle, j’ai développé le site e-commerce de ma micro-entreprise avec Prestashop. J’ai assuré sa personnalisation graphique ainsi que sa mise en ligne, ce qui m’a permis d’appliquer mes compétences dans un contexte concret et autonome.\n\nJe souhaite désormais consolider mes acquis et découvrir de nouveaux langages et outils. Curieuse et motivée, je suis ouverte à toutes les opportunités qui me permettront de progresser dans le développement web.",
+        "softSkills": "Souvent mises à l'écart, les passions et passes-temps sont pourtant de véritables atouts.\nPour ma part, je pratique :",
+        "softSkillsItems": [
+            "L'équitation, qui m'apprend la douceur et la rigueur",
+            "La mécanique, qui me fait faire beaucoup de recherche et réfléchir à la résolution de problèmes de façon durable",
+            "Le graphisme, qui fait travailler ma créativité",
+            "Les voyages, pour découvrir de nouvelles façons de penser",
+            "Le jardinage, qui apprend la résilience et la patience"
+        ]
+    }
+}

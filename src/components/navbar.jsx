@@ -39,14 +39,14 @@ function Navbar(){
     return(
         <div className="fixed left-2 top-2 z-10"> {isLargeViewport ? (
             // Is shown on screens equals or larger than 768px
-            <nav className='font-hahmlet fixed left-0 top-0 h-full w-[5vw] items-center p-2 flex flex-col backdrop-blur-xs bg-black/50 border-r border-stone-900/70'>
-                <img src={logo} alt="Initiales de Julie Poignant" className="logo h-10" />
+            <nav className='font-hahmlet fixed left-0 top-0 h-full w-[5vw] items-center flex flex-col backdrop-blur-xs bg-black/50 border-r border-stone-900/70'>
+                <img src={logo} alt="Initiales de Julie Poignant" className="logo my-4 mx-auto w-[70%] self-center" />
                 <div className='text-[16px] tracking-widest grow flex flex-col justify-around'>
-                    <Link to="/" className={`text-indigo-50 -rotate-90 hover:text-amber-500' ${location.pathname === "/" ? 'active_link' : ''}`}>Accueil</Link>
-                    <Link to="/a-propos" className={`text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/a-propos" ? 'active_link' : ''}`}>À propos</Link>
-                    <Link to="/projets" className={`text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/projets" ? 'active_link' : ''}`}>Projets</Link>
-                    <Link to="/contact" className={`text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/contact" ? 'active_link' : ''}`}>Contact</Link>
-                    <button to="/curriculum" className={`text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/curriculum" ? 'active_link' : ''}`}>CV <i className="fa-solid fa-download"></i></button>
+                    <Link to="/" className={`whitespace-nowrap text-indigo-50 -rotate-90 hover:text-amber-500' ${location.pathname === "/" ? 'active_link' : ''}`}>Accueil</Link>
+                    <Link to="/a-propos" className={`whitespace-nowrap text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/a-propos" ? 'active_link' : ''}`}>À propos</Link>
+                    <Link to="/projets" className={`whitespace-nowrap text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/projets" ? 'active_link' : ''}`}>Projets</Link>
+                    <Link to="/contact" className={`whitespace-nowrap text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/contact" ? 'active_link' : ''}`}>Contact</Link>
+                    <a href='https://drive.google.com/file/d/1rVWa-tt9hG4SjmTxe5SXMkEhJmKLKRW4/view?usp=sharing' target='_blank' className={`text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/curriculum" ? 'active_link' : ''}`}>CV <i className="fa-solid fa-download"></i></a>
                 </div>
                 <div className='text-indigo-50 font-light h-24 content-center flex flex-col justify-between py-4'>
                     <a href="https://www.linkedin.com/in/julie-poignant/" target='_blank' className='hover:text-amber-500'><i className="fa-brands fa-linkedin fa-2xl"></i></a>
@@ -58,12 +58,12 @@ function Navbar(){
             <nav className='font-hahmlet justify-items-start'>
                 <button onClick={toggleDropdown} className='text-amber-500'><i className="fa-solid fa-bars fa-xl"></i></button>
                 {isOpen && (
-                    <ul role='menu' className='text-left rounded-lg bg-black/40 backdrop-blur-lg p-2'>
-                        <li><Link to="/" onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500' ${location.pathname === "/" ? 'active_link' : ''}`} role='menu-item'>Accueil</Link></li>
+                    <ul role='menu' className='text-left rounded-lg bg-black/40 backdrop-blur-lg p-4 leading-7'>
+                        <li><Link to="/" onClick={closeDropdown} className={`text-indigo-50 hover:text-amber-500' ${location.pathname === "/" ? 'active_link' : ''}`} role='menu-item'>Accueil</Link></li>
                         <li><Link to="/a-propos" onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500 ${location.pathname === "/a-propos" ? 'active_link' : ''}`} role='menu-item'>A propos</Link></li>
                         <li><Link to="/projets" onClick={closeDropdown} className={`my-2 text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/projets" ? 'active_link' : ''}`} role='menu-item'>Projets</Link></li>
                         <li><Link to="/contact" onClick={closeDropdown} className={`my-2 text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/contact" ? 'active_link' : ''}`} role='menu-item'>Contact</Link></li>
-                        <li><button to="/curriculum" onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500 ${location.pathname === "/curriculum" ? 'active_link' : ''}`} role='menu-item'>CV <i className="fa-solid fa-download"></i></button></li>
+                        <li><a href='https://drive.google.com/file/d/1rVWa-tt9hG4SjmTxe5SXMkEhJmKLKRW4/view?usp=sharing' target='_blank' onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500 ${location.pathname === "/curriculum" ? 'active_link' : ''}`} role='menu-item'>CV <i className="fa-solid fa-download"></i></a></li>
                         <li className='flex gap-4'>
                             <a href="https://www.linkedin.com/in/julie-poignant/" target='_blank' className='text-indigo-50 hover:text-amber-500'><i className="fa-brands fa-linkedin fa-xl"></i></a>
                             <a href="https://github.com/StrangePlatypus?tab=repositories" target='_blank' className='text-indigo-50 hover:text-amber-500'><i className="fa-brands fa-square-github fa-xl"></i></a>
