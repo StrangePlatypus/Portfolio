@@ -14,7 +14,7 @@ function Projects(){
             <div id='slider_container'>
                 <ul id='slider'>
                     {projects.map(({id, title, cover}) =>
-                    <Card key={id} title={title} cover={cover}/>
+                    <Card key={id} id={id} title={title} cover={cover}/>
                     )}
                 </ul>
             </div>

@@ -42,7 +42,7 @@ function Navbar(){
             <nav className='font-hahmlet fixed left-0 top-0 h-full w-[5vw] items-center flex flex-col backdrop-blur-xs bg-black/50 border-r border-stone-900/70'>
                 <img src={logo} alt="Initiales de Julie Poignant" className="logo my-4 mx-auto w-[70%] self-center" />
                 <div className='text-[16px] tracking-widest grow flex flex-col justify-around'>
-                    <Link to="/" className={`whitespace-nowrap text-indigo-50 -rotate-90 hover:text-amber-500' ${location.pathname === "/" ? 'active_link' : ''}`}>Accueil</Link>
+                    <Link to="/" className={`whitespace-nowrap text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/" ? 'active_link' : ''}`}>Accueil</Link>
                     <Link to="/a-propos" className={`whitespace-nowrap text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/a-propos" ? 'active_link' : ''}`}>À propos</Link>
                     <Link to="/projets" className={`whitespace-nowrap text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/projets" ? 'active_link' : ''}`}>Projets</Link>
                     <Link to="/contact" className={`whitespace-nowrap text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/contact" ? 'active_link' : ''}`}>Contact</Link>
