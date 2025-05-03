@@ -38,7 +38,8 @@ function Navbar(){
 
     return(
         <div className="fixed left-2 top-2 z-10"> {isLargeViewport ? (
-            // Is shown on screens equals or larger than 768px
+            
+// When screen is equal or larger than 768px :
             <nav className='font-hahmlet fixed left-0 top-0 h-full w-[5vw] items-center flex flex-col backdrop-blur-xs bg-black/50 border-r border-stone-900/70'>
                 <img src={logo} alt="Initiales de Julie Poignant" className="logo my-4 mx-auto w-[70%] self-center" />
                 <div className='text-[16px] tracking-widest grow flex flex-col justify-around'>
@@ -54,7 +55,8 @@ function Navbar(){
                 </div>
             </nav>
         ) : (
-            // Is shown on screen smaller than 768px
+
+// If screen is smaller than 768px :
             <nav className='font-hahmlet justify-items-start'>
                 <button onClick={toggleDropdown} className='text-amber-500'><i className="fa-solid fa-bars fa-xl"></i></button>
                 {isOpen && (

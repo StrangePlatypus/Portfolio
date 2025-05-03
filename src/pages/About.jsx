@@ -3,18 +3,22 @@ import Icon from "../components/icon"
 import TextDiv from "../components/textDiv"
 
 import portrait from '../assets/images/portrait.jpg'
+import video from "../assets/video/bg_video.mp4"
 import {about} from '../assets/data/about.json'
 
 function About(){
+
+{/** Turning the soft skills array into a list */}
     const softSkillsList = about.softSkillsItems.map((skill, index) => <li key={index}>{skill}</li>)
 
+{/** Styles */}
     const sectionStyle = "w-full font-hahmlet text-indigo-50 font-light flex flex-col md:flex-row md:justify-between items-center lg-gap:auto"
     const reverseSectionStyle = "w-full font-hahmlet text-indigo-50 font-light flex flex-col md:flex-row-reverse md:justify-between items-center lg:gap-auto"
     const iconsDivStyle = "md:w-fit w-full p-2 md:p-8 text-amber-500 grid grid-cols-6 xl:grid-cols-3 md:grid-cols-2 gap-auto md:gap-8 justify-items-center"
 
     return(
         <main className="w-full h-full">
-            <BgVideo />
+            <BgVideo video={video}/>
             <section className="w-[90vw] h-fit md:absolute md:right-0 md:top-0 md:p-[2em] lg:p-[5em] my-8 flex flex-col gap-24 justify-center items-center">
 
 {/** RESUME SECTION */}

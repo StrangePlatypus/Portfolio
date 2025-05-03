@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import "tailwindcss";
 
 @theme{
   --font-hahmlet: "Hahmlet", serif;
+  --font-roboto: "Roboto Mono", monospace;
   --color-translucentwhite: rgba(255, 255, 255, 0.05);
 }
 
@@ -51,6 +53,17 @@ body {
 	opacity: 1;
 }
 
+.slider_img{
+	transition: fadeInOut 5s ease;
+}
+
+.ReactModal__Content{
+	width: 50vw;
+	margin: auto;
+	position: fixed;
+}
+
+
 @keyframes gradient {
 	0% {
 		background-position-x: 0%;
@@ -62,6 +75,19 @@ body {
 		background-position-x: 0%;
 	}
 }
+
+@keyframes fadeInOut {
+	0% {
+		opacity: 100%;
+	}
+	50% {
+		opacity: 0%;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
+
 
 @media (max-width: 767px) {
 	#slider_container{
@@ -75,6 +101,13 @@ body {
 		flex-direction: column;
 		align-items: center;
 		gap: 8vh;
+	}
+
+	.ReactModal__Content{
+		width: 90vw;
+		margin: 0;
+		inset: 5vh 5vw !important;
+		padding: 20px 8px !important;
 	}
 }
 
@@ -104,3 +137,10 @@ body {
 	}
 }
 
+@media (min-width: 768px) and (max-width: 1023px){
+	.ReactModal__Content{
+		width: 70vw;
+		margin: auto;
+		padding: 20px 8px !important;
+	}
+}
