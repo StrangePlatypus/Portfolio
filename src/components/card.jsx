@@ -3,6 +3,7 @@ import {projects} from '../assets/data/projects-data.json'
 import Modal from 'react-modal'
 import { useState } from "react"
 import Slideshow from "./slideshow"
+import TechIcon from "./techIcon"
 
 function Card({id, title, cover}){
 
@@ -74,9 +75,13 @@ function Card({id, title, cover}){
             .filter((project) => {
               return (project.id === id)
             })
-            .map(({id, title, time, tools, objectif, tasks, challenges, memory, skills, pictures, gitlink}) => {
+            .map(({id, title, tools, objectif, tasks, challenges, memory, skills, pictures, gitlink}) => {
 
-      {/* Turning tasks and skills arrays in lists */}
+      {/* Turning tools,tasks and skills arrays in lists */}
+              const toolsList = tools.map((tool, index) => {
+                return (<TechIcon key={index} url={tool.url} name={tool.name}/>)
+              })
+
               const tasksList = tasks.map((task, index) => {
                 return (<li key={index}>{task}</li>)
               })
@@ -94,31 +99,27 @@ function Card({id, title, cover}){
                     <Slideshow pictures={pictures} />
                     <div className="m-2 md:m-4 py-4 border-y border-indigo-50 flex flex-col gap-6">
                       <div>
-                        <p className={titlesStyle}>Durée :</p>
-                        <p className={innerTextStyle}>{time}</p>
+                        <h3 className={titlesStyle}>Outils utilisés :</h3>
+                        <div className="flex gap-4">{toolsList}</div>
                       </div>
                       <div>
-                        <p className={titlesStyle}>Outils utilisés :</p>
-                        <p className={innerTextStyle}>{tools}</p>
-                      </div>
-                      <div>
-                        <p className={titlesStyle}>Objectif du projet :</p>
+                        <h3 className={titlesStyle}>Objectif du projet :</h3>
                         <p className={innerTextStyle}>{objectif}</p>
                       </div>
                       <div>
-                        <p className={titlesStyle}>Tâches accomplies :</p>
+                        <h3 className={titlesStyle}>Tâches accomplies :</h3>
                         <ul className={listStyle}>{tasksList}</ul>
                       </div>
                       <div>
-                        <p className={titlesStyle}>Défis rencontrés :</p>
+                        <h3 className={titlesStyle}>Défis rencontrés :</h3>
                         <p className={innerTextStyle}>{challenges}</p>
                       </div>
                       <div>
-                        <p className={titlesStyle}>J'en retiens ceci :</p>
+                        <h3 className={titlesStyle}>J'en retiens ceci :</h3>
                         <p className={innerTextStyle}>{memory}</p>
                       </div>
                       <div>
-                        <p className={titlesStyle}>Ce que j'ai appris avec ce projet :</p>
+                        <h3 className={titlesStyle}>Ce que j'ai appris avec ce projet :</h3>
                         <ul className={listStyle}>{skillsList}</ul>
                       </div>
                     </div>

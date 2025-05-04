@@ -1,10 +1,12 @@
-import BgVideo from "../components/backgroundVideo"
 import Icon from "../components/icon"
 import TextDiv from "../components/textDiv"
+import { lazy, Suspense } from 'react'
 
 import portrait from '../assets/images/portrait.jpg'
 import video from "../assets/video/bg_video.mp4"
 import {about} from '../assets/data/about.json'
+
+const LazyVideo = lazy(() => import ('../components/backgroundVideo'))
 
 function About(){
 
@@ -18,7 +20,9 @@ function About(){
 
     return(
         <main className="w-full h-full">
-            <BgVideo video={video}/>
+            <Suspense fallback={<div>Loading...</div>}>
+                <LazyVideo video={video}/>
+            </Suspense>
             <section className="w-[90vw] h-fit md:absolute md:right-0 md:top-0 md:p-[2em] lg:p-[5em] my-8 flex flex-col gap-24 justify-center items-center">
 
 {/** RESUME SECTION */}

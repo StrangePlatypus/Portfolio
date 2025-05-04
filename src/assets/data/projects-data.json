@@ -3,8 +3,24 @@
         {
             "id": "1",
             "title": "Booki - Agence de voyage - HTML & CSS",
-            "time": "2 semaines",
-            "tools": "HTML5, CSS3, Figma, VS Code, Chrome DevTools",
+            "tools": [
+                {
+                    "url": "src/assets/images/tech_logo/HTML5.png",
+                    "name": "HTML5"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/CSS3.png",
+                    "name": "CSS3"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/Figma.png",
+                    "name": "Figma"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/Visual_Studio_Code.png",
+                    "name": "Visual Studio Code"
+                }
+            ],
             "objectif": "À partir d’une maquette fournie sur Figma, j’ai développé une page d’accueil responsive en HTML et CSS, en respectant précisément les spécifications techniques et fonctionnelles.",
             "tasks": [
                 "Intégration fidèle à la maquette fournie, au pixel près",
@@ -21,20 +37,36 @@
                 "Versionner son projet avec Git et Github",
                 "Installer un environnement de développement front-end"
             ],
-            "cover": "src/assets/images/booki_1.png",
+            "cover": "src/assets/images/projects/booki_1.png",
             "pictures": [
-                "src/assets/images/booki_1.png",
-                "src/assets/images/booki_2.png",
-                "src/assets/images/booki_3.png",
-                "src/assets/images/booki_4.png"
+                "src/assets/images/projects/booki_1.png",
+                "src/assets/images/projects/booki_2.png",
+                "src/assets/images/projects/booki_3.png",
+                "src/assets/images/projects/booki_4.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/projet-2-booki"
         },
         {
             "id": "2",
             "title": "Sophie Bluel - Architecte d'intérieur - Javascript",
-            "time": "2 semaines",
-            "tools": "HTML5, CSS3, Javascript, API avec Swagger",
+            "tools": [
+                {
+                    "url": "src/assets/images/tech_logo/HTML5.png",
+                    "name": "HTML5"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/CSS3.png",
+                    "name": "CSS3"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/JavaScript.png",
+                    "name": "JavaScript"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/Swagger.png",
+                    "name": "Swagger"
+                }
+            ],
             "objectif": "Améliorer l'interactivité d’une page web en utilisant JavaScript pour écouter les événements utilisateur (comme les clics) et effectuer des appels API pour interagir avec un backend.",
             "tasks": [
                 "Mise en place des fonctionnalités interactives via JavaScript, permettant à la page de répondre aux actions de l’utilisateur.",
@@ -48,22 +80,38 @@
                 "Manipuler les éléments du DOM avec Javascript",
                 "Gérer les événements utilisateurs avec Javascript"
             ],
-            "cover": "src/assets/images/bluel_1.png",
+            "cover": "src/assets/images/projects/bluel_1.png",
             "pictures": [
-                "src/assets/images/bluel_1.png",
-                "src/assets/images/bluel_2.png",
-                "src/assets/images/bluel_3.png",
-                "src/assets/images/bluel_4.png",
-                "src/assets/images/bluel_5.png",
-                "src/assets/images/bluel_6.png"
+                "src/assets/images/projects/bluel_1.png",
+                "src/assets/images/projects/bluel_2.png",
+                "src/assets/images/projects/bluel_3.png",
+                "src/assets/images/projects/bluel_4.png",
+                "src/assets/images/projects/bluel_5.png",
+                "src/assets/images/projects/bluel_6.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/projet-3-sophie-bluel"
         },
         {
             "id": "3",
             "title": "Kasa - Location entre particuliers  - React",
-            "time": "2 semaines",
-            "tools": "React, Vite, Sass, React-Router",
+            "tools": [
+                {
+                    "url": "src/assets/images/tech_logo/React.png",
+                    "name": "React"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/Vite.png",
+                    "name": "Vite"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/Sass.png",
+                    "name": "Sass"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/React_router.png",
+                    "name": "React Router"
+                }
+            ],
             "objectif": "Développer l'application web Kasa de A à Z, en respectant la maquette fournie, en utilisant React pour la partie front-end, Vite pour la configuration, et Sass pour le style.",
             "tasks": [
                 "Création de tous les composants nécessaires avec React et gestion de la navigation entre les pages grâce à React-Router.",
@@ -78,20 +126,32 @@
                 "Initialiser une application avec Vite",
                 "Développer des éléments de l'interface d'un site web grâce à des composants React"
             ],
-            "cover": "src/assets/images/kasa_1.png",
+            "cover": "src/assets/images/projects/kasa_1.png",
             "pictures": [
-                "src/assets/images/kasa_1.png",
-                "src/assets/images/kasa_2.png",
-                "src/assets/images/kasa_3.png",
-                "src/assets/images/kasa_4.png"
+                "src/assets/images/projects/kasa_1.png",
+                "src/assets/images/projects/kasa_2.png",
+                "src/assets/images/projects/kasa_3.png",
+                "src/assets/images/projects/kasa_4.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/kasa-application-react"
         },
         {
             "id": "4",
             "title": "Mon Vieux Grimoire - Notation de livres - Nodes.js",
-            "time": "1 semaine et 2 jours",
-            "tools": "Node.js, Express, MongoDB (Atlas), Mongoose",
+            "tools": [
+                {
+                    "url": "src/assets/images/tech_logo/Nodejs.png",
+                    "name": "Node.js"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/MongoDB.png",
+                    "name": "MongoDB"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/Mongoose.png",
+                    "name": "Mongoose"
+                }
+            ],
             "objectif": "Développer l’ensemble de la partie back-end d’un site de gestion de livres, sans maquette, avec un ensemble de spécifications fonctionnelles précises. Le but était de permettre la création d’utilisateurs, la connexion/déconnexion, et la gestion d’un système de bibliothèque avec notation.",
             "tasks": [
                 "Création d’une base de données NoSQL avec MongoDB Atlas.",
@@ -107,19 +167,27 @@
                 "Mettre en oeuvre des opérations CRUD de manière sécurisée",
                 "Stocker des données de manière sécurisée"
             ],
-            "cover": "src/assets/images/grimoire_1.png",
+            "cover": "src/assets/images/projects/grimoire_1.png",
             "pictures": [
-                "src/assets/images/grimoire_1.png",
-                "src/assets/images/grimoire_2.png",
-                "src/assets/images/grimoire_3.png"
+                "src/assets/images/projects/grimoire_1.png",
+                "src/assets/images/projects/grimoire_2.png",
+                "src/assets/images/projects/grimoire_3.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/Mon_Vieux_Grimoire-backend"
         },
         {
             "id": "5",
             "title": "Nina Carducci - Photographe - Optimisation & debug",
-            "time": "1 semaine environ",
-            "tools": "JavaScript, DevTools (Lighthouse), extension WAVE",
+            "tools": [
+                {
+                    "url": "src/assets/images/tech_logo/JavaScript.png",
+                    "name": "JavaScript"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/Wave.png",
+                    "name": "Wave"
+                }
+            ],
             "objectif": "Le projet consistait à travailler sur une base de code existante afin de corriger des bugs, améliorer l’accessibilité et optimiser les performances SEO d’un site RH. L’objectif final était d’obtenir une évaluation parfaite (100%) dans les quatre domaines évalués par Lighthouse : performance, accessibilité, bonnes pratiques et SEO.",
             "tasks": [
                 "Analyse des erreurs et des axes d’amélioration via Lighthouse et WAVE.",
@@ -134,20 +202,36 @@
                 "Débugger un site web grâce aux Chrome DevTools",
                 "Rédiger un cahier de recette pour tester un site"
             ],
-            "cover": "src/assets/images/nina_1.png",
+            "cover": "src/assets/images/projects/nina_1.png",
             "pictures": [
-                "src/assets/images/nina_1.png",
-                "src/assets/images/nina_2.png",
-                "src/assets/images/nina_3.png",
-                "src/assets/images/nina_4.png"
+                "src/assets/images/projects/nina_1.png",
+                "src/assets/images/projects/nina_2.png",
+                "src/assets/images/projects/nina_3.png",
+                "src/assets/images/projects/nina_4.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/Nina-Carducci"
         },
         {
             "id": "6",
             "title": "MenuMaker by Qwenta - Gestion de projet",
-            "time": "2 semaines",
-            "tools": "Notion, Figma, Feedly, DailyDev, outils de bureautique",
+            "tools": [
+                {
+                    "url": "src/assets/images/tech_logo/Notion.png",
+                    "name": "Notion"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/Figma.png",
+                    "name": "Figma"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/Feedly.png",
+                    "name": "Feedly"
+                },
+                {
+                    "url": "src/assets/images/tech_logo/OpenOffice.png",
+                    "name": "OpenOffice"
+                }
+            ],
             "objectif": "Préparer et planifier le développement du site Menu Maker by Qwenta en l'absence du Product Owner, en produisant l’ensemble des livrables nécessaires au lancement du projet.",
             "tasks": [
                 "Un fichier PDF de spécifications techniques (avec tableaux et justifications des choix)",
@@ -166,13 +250,13 @@
                 "Présenter la solution technique",
                 "Mettre en place une méthode de veille technologique"
             ],
-            "cover": "src/assets/images/gestion_1.png",
+            "cover": "src/assets/images/projects/gestion_1.png",
             "pictures": [
-                "src/assets/images/gestion_1.png",
-                "src/assets/images/gestion_2.png",
-                "src/assets/images/gestion_3.png",
-                "src/assets/images/gestion_4.png",
-                "src/assets/images/gestion_5.png"
+                "src/assets/images/projects/gestion_1.png",
+                "src/assets/images/projects/gestion_2.png",
+                "src/assets/images/projects/gestion_3.png",
+                "src/assets/images/projects/gestion_4.png",
+                "src/assets/images/projects/gestion_5.png"
             ],
             "gitlink": ""
         }

@@ -16,8 +16,26 @@ import Error from './pages/Error.jsx'
 import Navbar from './components/navbar.jsx'
 import Header from './components/header.jsx'
 
+// Structured data
+const structuredData = {
+  "@context": "https://schema.org/",
+    "@type": "Person",
+    "name": "Poignant Julie",
+    "url": "https://www.julie-poignant.fr",
+    "telephone": "06 44 79 58 62",
+    "image": "",
+    "sameAs": [
+      "https://www.linkedin.com/in/julie-poignant/",
+      "https://github.com/StrangePlatypus?tab=repositories"
+    ],
+    "jobTitle": "Développeur web"
+}
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <script type='application/ld+json' dangerouslySetInnerHTML={{
+      __html: JSON.stringify(structuredData),
+    }} />
     <Header />
     <Router>
       <Navbar />

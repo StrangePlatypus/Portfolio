@@ -1,9 +1,10 @@
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser'
-import BgVideo from "../components/backgroundVideo"
 import video from "../assets/video/bg_video.mp4"
 import SmallInput from "../components/smallInput";
+import { lazy, Suspense } from 'react'
 
+const LazyVideo = lazy(() => import ('../components/backgroundVideo'))
 
 function Contact(){
 
@@ -34,7 +35,9 @@ function Contact(){
     
     return(
         <main className="h-fit md:h-[100vh] w-[90vw] flex flex-wrap place-content-center-safe">
-            <BgVideo video={video}/>
+            <Suspense fallback={<div>Loading...</div>}>
+                <LazyVideo video={video}/>
+            </Suspense>
             <section className="w-full md:w-[60vw] lg:w-[40vw] h-fit font-hahmlet text-indigo-50 px-2 py-4 md:mt-16 lg:p-8 rounded-3xl bg-black/40 backdrop-blur-lg mr-0">
                 <h2 className="text-base md:text-xl mb-8 md:mb-16 font-semibold">Pour tout renseignement, n'hésitez pas à me contacter via le formulaire ci-dessous :</h2>
                 <form ref={form} onSubmit={sendEmail} className="m-auto flex flex-col gap-8 md:gap-12 items-center text-sm text-semibold">
@@ -44,7 +47,7 @@ function Contact(){
                             <SmallInput type="text" id="name" name="name" autoComplete="true" />
                         </div>
                         <div className="flex flex-col">
-                            <label htmlFor="name"><i className="fa-solid fa-asterisk text-red-500"></i> Adresse mail :</label>
+                            <label htmlFor="email"><i className="fa-solid fa-asterisk text-red-500"></i> Adresse mail :</label>
                             <SmallInput type="email" id="email" name="email" autoComplete="true" />
                         </div>
                         <div className="flex flex-col">

@@ -38,7 +38,7 @@ function Navbar(){
 
     return(
         <div className="fixed left-2 top-2 z-10"> {isLargeViewport ? (
-            
+
 // When screen is equal or larger than 768px :
             <nav className='font-hahmlet fixed left-0 top-0 h-full w-[5vw] items-center flex flex-col backdrop-blur-xs bg-black/50 border-r border-stone-900/70'>
                 <img src={logo} alt="Initiales de Julie Poignant" className="logo my-4 mx-auto w-[70%] self-center" />
@@ -50,8 +50,8 @@ function Navbar(){
                     <a href='https://drive.google.com/file/d/1rVWa-tt9hG4SjmTxe5SXMkEhJmKLKRW4/view?usp=sharing' target='_blank' className={`text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/curriculum" ? 'active_link' : ''}`}>CV <i className="fa-solid fa-download"></i></a>
                 </div>
                 <div className='text-indigo-50 font-light h-24 content-center flex flex-col justify-between py-4'>
-                    <a href="https://www.linkedin.com/in/julie-poignant/" target='_blank' className='hover:text-amber-500'><i className="fa-brands fa-linkedin fa-2xl"></i></a>
-                    <a href="https://github.com/StrangePlatypus?tab=repositories" target='_blank' className='hover:text-amber-500'><i className="fa-brands fa-square-github fa-2xl"></i></a>
+                    <a href="https://www.linkedin.com/in/julie-poignant/" target='_blank' aria-label='Lien vers Linkedin' className='hover:text-amber-500'><i className="fa-brands fa-linkedin fa-2xl"></i></a>
+                    <a href="https://github.com/StrangePlatypus?tab=repositories" target='_blank' aria-label='Lien vers Github' className='hover:text-amber-500'><i className="fa-brands fa-square-github fa-2xl"></i></a>
                 </div>
             </nav>
         ) : (
