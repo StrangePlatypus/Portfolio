@@ -37,9 +37,9 @@
                 "Versionner son projet avec Git et Github",
                 "Installer un environnement de développement front-end"
             ],
-            "cover": "require('../assets/images/projects/booki_1.png')",
+            "cover": require("../assets/images/projects/booki_1.png"),
             "pictures": [
-                "../assets/images/projects/booki_1.png",
+                require("../assets/images/projects/booki_1.png"),
                 "../assets/images/projects/booki_2.png",
                 "../assets/images/projects/booki_3.png",
                 "../assets/images/projects/booki_4.png"
