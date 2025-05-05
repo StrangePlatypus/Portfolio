@@ -1,12 +1,55 @@
-# React + Vite
+FR :
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Bienvenue sur mon portfolio !
 
-Currently, two official plugins are available:
+## Run locally
+Pour télécharger et utiliser ce code localement, il vous faudra taper, via la ligne de commandes :
+- npm i
+- npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Il sera également nécessaire de créer un fichier .env avec vos propres variables EmailJS :
+- VITE_SERVICE_ID
+- VITE_TEMPLATE_ID
+- VITE_PUBLIC_KEY
 
-## Expanding the ESLint configuration
+## Documentation
+Ce projet a été fait avec React via Vite.
+Le CSS est presque intégralement géré par Tailwind.
+Le formulaire de contact est géré par EmailJS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Support
+En cas de soucis, merci de me contacter julie.cpoignant@gmail.com.
+
+EN :
+
+# Welcome to my porfolio !
+
+## Run locally
+To download and use this code locally, You will have to run, via the command line :
+- npm i
+- npm run dev
+
+You will also have to create a .env file with your own EmailJS variables :
+- VITE_SERVICE_ID
+- VITE_TEMPLATE_ID
+- VITE_PUBLIC_KEY
+
+## Documentation
+This project have been created with Vite and React.
+The CSS part is almost entirely made with Tailwind.
+The contact form is running with EmailJS.
+
+## Support
+If any problem occur, please contact me julie.cpoignant@gmail.com.
+
+
+
+
+ 
+           _.- ~~^^^'~- _ __ .,.- ~ ~ ~  ~  -. _
+ ________,'       ::.                       _,-  ~ -.
+((      ~_\   -s-  ::                     ,'          ;,
+ \\       <.._ .;;;`                     ;           }  `',
+  ``======='    _ _- _ (   }             `,          ,'\,  `,
+               ((/ _ _,i   ! _ ~ - -- - _ _'_-_,_,,,'    \,  ;
+                 ((((____/            (,(,(, ____>        \,'

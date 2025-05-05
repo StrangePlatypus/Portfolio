@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 // Styles
-import './assets/styles/index.css'
+import './assets/styles/index.min.css'
 
 // Pages
 import Home from './pages/Home.jsx'
