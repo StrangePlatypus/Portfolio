@@ -8,7 +8,6 @@ import TechIcon from "./techIcon"
 function Card({id, title, cover}){
 
     const cardRef = useRef(null)
-    const coverImg = `../assets/images/projects/${cover}`
 
 {/** Styles */}
 
@@ -135,7 +134,7 @@ function Card({id, title, cover}){
         {/* On click on the card, the modal will be shown */}
         <li ref={cardRef} id={id} onClick={()=> setShowModal(true)} className="relative w-[90vw] md:w-[35vw] lg:w-[25vw] h-fit inline-block md:mx-10 xl:mx-20 bg-sky-600/15 backdrop-blur-lg font-hahmlet p-2 md:p-4 text-sm md:text-base text-indigo-50 rounded-2xl hover:bg-sky-500/35 cursor-pointer">
             <div className="content-center flex flex-col justify-between h-[90%]">
-                <img className="h-[25vh] object-cover rounded-xl" src={coverImg} alt={`Couverture du projet ${title}`} />
+                <img className="h-[25vh] object-cover rounded-xl" src={cover} alt={`Couverture du projet ${title}`} />
                 <p className="w-full text-wrap h-[7vh] py-3">{title}</p> 
             </div>
         </li>
