@@ -2,7 +2,7 @@ import Icon from "../components/icon"
 import TextDiv from "../components/textDiv"
 import { lazy, Suspense } from 'react'
 
-import portrait from '../public/images/portrait.jpg'
+import portrait from '/images/portrait.jpg'
 import video from "../assets/video/bg_video.mp4"
 import {about} from '../assets/data/about.json'
 

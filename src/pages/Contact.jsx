@@ -51,7 +51,7 @@ function Contact(){
                             <SmallInput type="email" id="email" name="email" autoComplete="true" />
                         </div>
                         <div className="flex flex-col">
-                            <label htmlFor="phone">Téléphone :</label>
+                            <label htmlFor="phone"><i className="fa-solid fa-asterisk text-red-500"></i> Téléphone :</label>
                             <SmallInput type="tel" id="phone" name="phone" autoComplete="true" />
                         </div>
                     </div>
