@@ -5,19 +5,19 @@
             "title": "Booki - Agence de voyage - HTML & CSS",
             "tools": [
                 {
-                    "url": "src/assets/images/tech_logo/HTML5.png",
+                    "url": "src/public/images/tech_logo/HTML5.png",
                     "name": "HTML5"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/CSS3.png",
+                    "url": "src/public/images/tech_logo/CSS3.png",
                     "name": "CSS3"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/Figma.png",
+                    "url": "src/public/images/tech_logo/Figma.png",
                     "name": "Figma"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/Visual_Studio_Code.png",
+                    "url": "src/public/images/tech_logo/Visual_Studio_Code.png",
                     "name": "Visual Studio Code"
                 }
             ],
@@ -37,12 +37,12 @@
                 "Versionner son projet avec Git et Github",
                 "Installer un environnement de développement front-end"
             ],
-            "cover": "../assets/images/projects/booki_1.png",
+            "cover": "src/public/images/projects/booki_1.png",
             "pictures": [
-                "src/assets/images/projects/booki_1.png",
-                "src/assets/images/projects/booki_2.png",
-                "src/assets/images/projects/booki_3.png",
-                "src/assets/images/projects/booki_4.png"
+                "src/public/images/projects/booki_1.png",
+                "src/public/images/projects/booki_2.png",
+                "src/public/images/projects/booki_3.png",
+                "src/public/images/projects/booki_4.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/projet-2-booki"
         },
@@ -51,19 +51,19 @@
             "title": "Sophie Bluel - Architecte d'intérieur - Javascript",
             "tools": [
                 {
-                    "url": "src/assets/images/tech_logo/HTML5.png",
+                    "url": "src/public/images/tech_logo/HTML5.png",
                     "name": "HTML5"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/CSS3.png",
+                    "url": "src/public/images/tech_logo/CSS3.png",
                     "name": "CSS3"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/JavaScript.png",
+                    "url": "src/public/images/tech_logo/JavaScript.png",
                     "name": "JavaScript"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/Swagger.png",
+                    "url": "src/public/images/tech_logo/Swagger.png",
                     "name": "Swagger"
                 }
             ],
@@ -80,14 +80,14 @@
                 "Manipuler les éléments du DOM avec Javascript",
                 "Gérer les événements utilisateurs avec Javascript"
             ],
-            "cover": "src/assets/images/projects/bluel_1.png",
+            "cover": "src/public/images/projects/bluel_1.png",
             "pictures": [
-                "src/assets/images/projects/bluel_1.png",
-                "src/assets/images/projects/bluel_2.png",
-                "src/assets/images/projects/bluel_3.png",
-                "src/assets/images/projects/bluel_4.png",
-                "src/assets/images/projects/bluel_5.png",
-                "src/assets/images/projects/bluel_6.png"
+                "src/public/images/projects/bluel_1.png",
+                "src/public/images/projects/bluel_2.png",
+                "src/public/images/projects/bluel_3.png",
+                "src/public/images/projects/bluel_4.png",
+                "src/public/images/projects/bluel_5.png",
+                "src/public/images/projects/bluel_6.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/projet-3-sophie-bluel"
         },
@@ -96,19 +96,19 @@
             "title": "Kasa - Location entre particuliers  - React",
             "tools": [
                 {
-                    "url": "src/assets/images/tech_logo/React.png",
+                    "url": "src/public/images/tech_logo/React.png",
                     "name": "React"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/Vite.png",
+                    "url": "src/public/images/tech_logo/Vite.png",
                     "name": "Vite"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/Sass.png",
+                    "url": "src/public/images/tech_logo/Sass.png",
                     "name": "Sass"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/React_router.png",
+                    "url": "src/public/images/tech_logo/React_router.png",
                     "name": "React Router"
                 }
             ],
@@ -126,12 +126,12 @@
                 "Initialiser une application avec Vite",
                 "Développer des éléments de l'interface d'un site web grâce à des composants React"
             ],
-            "cover": "src/assets/images/projects/kasa_1.png",
+            "cover": "src/public/images/projects/kasa_1.png",
             "pictures": [
-                "src/assets/images/projects/kasa_1.png",
-                "src/assets/images/projects/kasa_2.png",
-                "src/assets/images/projects/kasa_3.png",
-                "src/assets/images/projects/kasa_4.png"
+                "src/public/images/projects/kasa_1.png",
+                "src/public/images/projects/kasa_2.png",
+                "src/public/images/projects/kasa_3.png",
+                "src/public/images/projects/kasa_4.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/kasa-application-react"
         },
@@ -140,15 +140,15 @@
             "title": "Mon Vieux Grimoire - Notation de livres - Nodes.js",
             "tools": [
                 {
-                    "url": "src/assets/images/tech_logo/Nodejs.png",
+                    "url": "src/public/images/tech_logo/Nodejs.png",
                     "name": "Node.js"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/MongoDB.png",
+                    "url": "src/public/images/tech_logo/MongoDB.png",
                     "name": "MongoDB"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/Mongoose.png",
+                    "url": "src/public/images/tech_logo/Mongoose.png",
                     "name": "Mongoose"
                 }
             ],
@@ -167,11 +167,11 @@
                 "Mettre en oeuvre des opérations CRUD de manière sécurisée",
                 "Stocker des données de manière sécurisée"
             ],
-            "cover": "src/assets/images/projects/grimoire_1.png",
+            "cover": "src/public/images/projects/grimoire_1.png",
             "pictures": [
-                "src/assets/images/projects/grimoire_1.png",
-                "src/assets/images/projects/grimoire_2.png",
-                "src/assets/images/projects/grimoire_3.png"
+                "src/public/images/projects/grimoire_1.png",
+                "src/public/images/projects/grimoire_2.png",
+                "src/public/images/projects/grimoire_3.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/Mon_Vieux_Grimoire-backend"
         },
@@ -180,11 +180,11 @@
             "title": "Nina Carducci - Photographe - Optimisation & debug",
             "tools": [
                 {
-                    "url": "src/assets/images/tech_logo/JavaScript.png",
+                    "url": "src/public/images/tech_logo/JavaScript.png",
                     "name": "JavaScript"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/Wave.png",
+                    "url": "src/public/images/tech_logo/Wave.png",
                     "name": "Wave"
                 }
             ],
@@ -202,12 +202,12 @@
                 "Débugger un site web grâce aux Chrome DevTools",
                 "Rédiger un cahier de recette pour tester un site"
             ],
-            "cover": "src/assets/images/projects/nina_1.png",
+            "cover": "src/public/images/projects/nina_1.png",
             "pictures": [
-                "src/assets/images/projects/nina_1.png",
-                "src/assets/images/projects/nina_2.png",
-                "src/assets/images/projects/nina_3.png",
-                "src/assets/images/projects/nina_4.png"
+                "src/public/images/projects/nina_1.png",
+                "src/public/images/projects/nina_2.png",
+                "src/public/images/projects/nina_3.png",
+                "src/public/images/projects/nina_4.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/Nina-Carducci"
         },
@@ -216,19 +216,19 @@
             "title": "MenuMaker by Qwenta - Gestion de projet",
             "tools": [
                 {
-                    "url": "src/assets/images/tech_logo/Notion.png",
+                    "url": "src/public/images/tech_logo/Notion.png",
                     "name": "Notion"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/Figma.png",
+                    "url": "src/public/images/tech_logo/Figma.png",
                     "name": "Figma"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/Feedly.png",
+                    "url": "src/public/images/tech_logo/Feedly.png",
                     "name": "Feedly"
                 },
                 {
-                    "url": "src/assets/images/tech_logo/OpenOffice.png",
+                    "url": "src/public/images/tech_logo/OpenOffice.png",
                     "name": "OpenOffice"
                 }
             ],
@@ -250,13 +250,13 @@
                 "Présenter la solution technique",
                 "Mettre en place une méthode de veille technologique"
             ],
-            "cover": "src/assets/images/projects/gestion_1.png",
+            "cover": "src/public/images/projects/gestion_1.png",
             "pictures": [
-                "src/assets/images/projects/gestion_1.png",
-                "src/assets/images/projects/gestion_2.png",
-                "src/assets/images/projects/gestion_3.png",
-                "src/assets/images/projects/gestion_4.png",
-                "src/assets/images/projects/gestion_5.png"
+                "src/public/images/projects/gestion_1.png",
+                "src/public/images/projects/gestion_2.png",
+                "src/public/images/projects/gestion_3.png",
+                "src/public/images/projects/gestion_4.png",
+                "src/public/images/projects/gestion_5.png"
             ],
             "gitlink": ""
         }

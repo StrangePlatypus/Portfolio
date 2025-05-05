@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
-import logo from '../assets/images/PORTFOLIO.png'
+import logo from '../public/images/PORTFOLIO.png'
 
 function Navbar(){
 
