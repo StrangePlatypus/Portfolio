@@ -21,7 +21,7 @@ const structuredData = {
   "@context": "https://schema.org/",
     "@type": "Person",
     "name": "Poignant Julie",
-    "url": "https://www.julie-poignant.fr",
+    "url": "https://portfolio-julie-poignant.onrender.com/",
     "telephone": "06 44 79 58 62",
     "image": "",
     "sameAs": [
