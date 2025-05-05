@@ -37,12 +37,12 @@
                 "Versionner son projet avec Git et Github",
                 "Installer un environnement de développement front-end"
             ],
-            "cover": "src/assets/images/projects/booki_1.png",
+            "cover": "./src/assets/images/projects/booki_1.png",
             "pictures": [
-                "src/assets/images/projects/booki_1.png",
-                "src/assets/images/projects/booki_2.png",
-                "src/assets/images/projects/booki_3.png",
-                "src/assets/images/projects/booki_4.png"
+                "./src/assets/images/projects/booki_1.png",
+                "./src/assets/images/projects/booki_2.png",
+                "./src/assets/images/projects/booki_3.png",
+                "./src/assets/images/projects/booki_4.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/projet-2-booki"
         },
@@ -80,14 +80,14 @@
                 "Manipuler les éléments du DOM avec Javascript",
                 "Gérer les événements utilisateurs avec Javascript"
             ],
-            "cover": "src/assets/images/projects/bluel_1.png",
+            "cover": "./src/assets/images/projects/bluel_1.png",
             "pictures": [
-                "src/assets/images/projects/bluel_1.png",
-                "src/assets/images/projects/bluel_2.png",
-                "src/assets/images/projects/bluel_3.png",
-                "src/assets/images/projects/bluel_4.png",
-                "src/assets/images/projects/bluel_5.png",
-                "src/assets/images/projects/bluel_6.png"
+                "./src/assets/images/projects/bluel_1.png",
+                "./src/assets/images/projects/bluel_2.png",
+                "./src/assets/images/projects/bluel_3.png",
+                "./src/assets/images/projects/bluel_4.png",
+                "./src/assets/images/projects/bluel_5.png",
+                "./src/assets/images/projects/bluel_6.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/projet-3-sophie-bluel"
         },
@@ -126,12 +126,12 @@
                 "Initialiser une application avec Vite",
                 "Développer des éléments de l'interface d'un site web grâce à des composants React"
             ],
-            "cover": "src/assets/images/projects/kasa_1.png",
+            "cover": "./src/assets/images/projects/kasa_1.png",
             "pictures": [
-                "src/assets/images/projects/kasa_1.png",
-                "src/assets/images/projects/kasa_2.png",
-                "src/assets/images/projects/kasa_3.png",
-                "src/assets/images/projects/kasa_4.png"
+                "./src/assets/images/projects/kasa_1.png",
+                "./src/assets/images/projects/kasa_2.png",
+                "./src/assets/images/projects/kasa_3.png",
+                "./src/assets/images/projects/kasa_4.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/kasa-application-react"
         },
@@ -167,11 +167,11 @@
                 "Mettre en oeuvre des opérations CRUD de manière sécurisée",
                 "Stocker des données de manière sécurisée"
             ],
-            "cover": "src/assets/images/projects/grimoire_1.png",
+            "cover": "./src/assets/images/projects/grimoire_1.png",
             "pictures": [
-                "src/assets/images/projects/grimoire_1.png",
-                "src/assets/images/projects/grimoire_2.png",
-                "src/assets/images/projects/grimoire_3.png"
+                "./src/assets/images/projects/grimoire_1.png",
+                "./src/assets/images/projects/grimoire_2.png",
+                "./src/assets/images/projects/grimoire_3.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/Mon_Vieux_Grimoire-backend"
         },
@@ -202,12 +202,12 @@
                 "Débugger un site web grâce aux Chrome DevTools",
                 "Rédiger un cahier de recette pour tester un site"
             ],
-            "cover": "src/assets/images/projects/nina_1.png",
+            "cover": "./src/assets/images/projects/nina_1.png",
             "pictures": [
-                "src/assets/images/projects/nina_1.png",
-                "src/assets/images/projects/nina_2.png",
-                "src/assets/images/projects/nina_3.png",
-                "src/assets/images/projects/nina_4.png"
+                "./src/assets/images/projects/nina_1.png",
+                "./src/assets/images/projects/nina_2.png",
+                "./src/assets/images/projects/nina_3.png",
+                "./src/assets/images/projects/nina_4.png"
             ],
             "gitlink": "https://github.com/StrangePlatypus/Nina-Carducci"
         },
@@ -250,13 +250,13 @@
                 "Présenter la solution technique",
                 "Mettre en place une méthode de veille technologique"
             ],
-            "cover": "src/assets/images/projects/gestion_1.png",
+            "cover": "./src/assets/images/projects/gestion_1.png",
             "pictures": [
-                "src/assets/images/projects/gestion_1.png",
-                "src/assets/images/projects/gestion_2.png",
-                "src/assets/images/projects/gestion_3.png",
-                "src/assets/images/projects/gestion_4.png",
-                "src/assets/images/projects/gestion_5.png"
+                "./src/assets/images/projects/gestion_1.png",
+                "./src/assets/images/projects/gestion_2.png",
+                "./src/assets/images/projects/gestion_3.png",
+                "./src/assets/images/projects/gestion_4.png",
+                "./src/assets/images/projects/gestion_5.png"
             ],
             "gitlink": ""
         }
