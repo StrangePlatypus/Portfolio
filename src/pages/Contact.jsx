@@ -12,8 +12,11 @@ function Contact(){
     const [okDisplay, setOkDisplay] = useState("hidden")
     const [errorDisplay, setErrorDisplay] = useState("hidden")
 
+    const [submitValue, setSubmitValue] = useState('Envoyer')
+
     const sendEmail = (e) => {
         e.preventDefault();
+        setSubmitValue("En cours d'envoi...")
 
 {/** Sending the form with EmailJs and env */}
         emailjs
@@ -25,10 +28,12 @@ function Contact(){
             () => {
             setOkDisplay("block")
             form.current.reset()
+            setSubmitValue("Envoyer")
             },
             () => {
 /** Else, the error text appears to let the user know an error occured */
             setErrorDisplay("block")
+            setSubmitValue("Envoyer")
             },
         );
     };
@@ -60,7 +65,7 @@ function Contact(){
                         <textarea name="message" id="message" className="text-black w-full bg-white rounded-lg my-2 md:m-2 p-2 text-justify h-[20vh]"/>
                     </div>
                     <p><i className="fa-solid fa-asterisk text-red-500"></i> champs obligatoires.</p>
-                    <input type="submit" value="Envoyer" className="btn_enter w-fit px-4 py-2 h-[3em] w-1/4 text-black text-center content-center rounded-4xl transition-all duration-400 ease-in-out"/>
+                    <input type="submit" value={submitValue} className="btn_enter w-fit px-4 py-2 h-[3em] w-1/4 text-black text-center content-center rounded-4xl transition-all duration-400 ease-in-out"/>
         {/** After submiting the form, we let the user know if it's message as correctly been sent */}
                     <p className={okDisplay}>Votre message a bien été envoyé !</p>
                     <p className={errorDisplay}>Une erreur s'est produite lors de l'envoi du message.<br/>Si l'erreur persiste, envoyez-moi un mail à l'adresse suivant :<br/>julie.cpoignant@gmail.com</p>

@@ -11,7 +11,7 @@ const LazyVideo = lazy(() => import ('../components/backgroundVideo'))
 function About(){
 
 {/** Turning the soft skills array into a list */}
-    const softSkillsList = about.softSkillsItems.map((skill, index) => <li key={index}>{skill}</li>)
+    const softSkillsList = about.softSkillsItems.map((skill, index) => <li key={index} className="pb-2">{skill}</li>)
 
 {/** Styles */}
     const sectionStyle = "w-full font-hahmlet text-indigo-50 font-light flex flex-col md:flex-row md:justify-between items-center lg-gap:auto"

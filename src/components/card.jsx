@@ -55,7 +55,7 @@ function Card({id, title, cover}){
 
     const modalStyle = {
       overlay: {
-        backgroundColor: "rgba(0, 0, 0, 0.50)",
+        backgroundColor: "rgba(0, 0, 0, 0.80)",
         zIndex: "9"
       },
       content: {
@@ -63,7 +63,8 @@ function Card({id, title, cover}){
         color: "white",
         backgroundColor: "rgb(0, 2, 3)",
         border: "solid 1px rgb(0, 41, 61)",
-        scrollbarColor: "white rgba(0, 0, 0, 0)"
+        scrollbarColor: "white rgba(0, 0, 0, 0)",
+        marginTop: "2vh"
       }
     }
         
@@ -95,7 +96,7 @@ function Card({id, title, cover}){
       /** Creating the modal structure with all the data we got from the json file */ 
                   <Modal isOpen={showModal} style={modalStyle} key={id} onRequestClose={handleCloseModal} shouldCloseOnOverlayClick={true}>
                     <i onClick={()=> setShowModal(false)} className="fa-regular fa-circle-xmark fa-xl absolute top-6 right-4 cursor-pointer"></i>
-                    <h2 className="font-semibold lg:font-bold text-lg xl:text-xl md:uppercase">{title}</h2>
+                    <h2 className="font-semibold lg:font-bold text-lg xl:text-xl md:uppercase mt-4 sm:mt-auto">{title}</h2>
                     <Slideshow pictures={pictures} />
                     <div className="m-2 md:m-4 py-4 border-y border-indigo-50 flex flex-col gap-6">
                       <div>

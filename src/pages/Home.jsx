@@ -8,7 +8,7 @@ const LazyVideo = lazy(() => import ('../components/backgroundVideo'))
 function Home() {
 
   return (
-    <main className='w-full h-[90vh] flex flex-wrap place-content-center-safe'>
+    <main className='w-full h-[85vh] sm:h-[90vh] flex flex-wrap place-content-center-safe'>
       <Suspense fallback={<div>Loading...</div>}>
         <LazyVideo video={video}/>
       </Suspense>

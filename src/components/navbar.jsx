@@ -57,16 +57,16 @@ function Navbar(){
         ) : (
 
 // If screen is smaller than 768px :
-            <nav className='font-hahmlet justify-items-start'>
+            <nav className='font-hahmlet justify-items-start my-4 mx-2'>
                 <button onClick={toggleDropdown} className='text-amber-500'><i className="fa-solid fa-bars fa-xl"></i></button>
                 {isOpen && (
-                    <ul role='menu' className='text-left rounded-lg bg-black/40 backdrop-blur-lg p-4 leading-7'>
-                        <li><Link to="/" onClick={closeDropdown} className={`text-indigo-50 hover:text-amber-500' ${location.pathname === "/" ? 'active_link' : ''}`} role='menu-item'>Accueil</Link></li>
-                        <li><Link to="/a-propos" onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500 ${location.pathname === "/a-propos" ? 'active_link' : ''}`} role='menu-item'>A propos</Link></li>
-                        <li><Link to="/projets" onClick={closeDropdown} className={`my-2 text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/projets" ? 'active_link' : ''}`} role='menu-item'>Projets</Link></li>
-                        <li><Link to="/contact" onClick={closeDropdown} className={`my-2 text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/contact" ? 'active_link' : ''}`} role='menu-item'>Contact</Link></li>
-                        <li><a href='https://drive.google.com/file/d/1rVWa-tt9hG4SjmTxe5SXMkEhJmKLKRW4/view?usp=sharing' target='_blank' onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500 ${location.pathname === "/curriculum" ? 'active_link' : ''}`} role='menu-item'>CV <i className="fa-solid fa-download"></i></a></li>
-                        <li className='flex gap-4'>
+                    <ul role='menu' className='text-left rounded-lg bg-black/80 backdrop-blur-lg py-4 px-6 leading-7 w-[90vw]'>
+                        <li className='py-3 w-full border-indigo-50 border-b-1'><Link to="/" onClick={closeDropdown} className={`text-indigo-50 hover:text-amber-500' ${location.pathname === "/" ? 'active_link' : ''}`} role='menu-item'>Accueil</Link></li>
+                        <li className='py-3 w-full border-indigo-50 border-b-1'><Link to="/a-propos" onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500 ${location.pathname === "/a-propos" ? 'active_link' : ''}`} role='menu-item'>A propos</Link></li>
+                        <li className='py-3 w-full border-indigo-50 border-b-1'><Link to="/projets" onClick={closeDropdown} className={`my-2 text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/projets" ? 'active_link' : ''}`} role='menu-item'>Projets</Link></li>
+                        <li className='py-3 w-full border-indigo-50 border-b-1'><Link to="/contact" onClick={closeDropdown} className={`my-2 text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/contact" ? 'active_link' : ''}`} role='menu-item'>Contact</Link></li>
+                        <li className='py-3 w-full border-indigo-50 border-b-1'><a href='https://drive.google.com/file/d/1rVWa-tt9hG4SjmTxe5SXMkEhJmKLKRW4/view?usp=sharing' target='_blank' onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500 ${location.pathname === "/curriculum" ? 'active_link' : ''}`} role='menu-item'>CV <i className="fa-solid fa-download"></i></a></li>
+                        <li className='py-3 flex gap-4 w-full'>
                             <a href="https://www.linkedin.com/in/julie-poignant/" target='_blank' className='text-indigo-50 hover:text-amber-500'><i className="fa-brands fa-linkedin fa-xl"></i></a>
                             <a href="https://github.com/StrangePlatypus?tab=repositories" target='_blank' className='text-indigo-50 hover:text-amber-500'><i className="fa-brands fa-square-github fa-xl"></i></a>
                         </li>
