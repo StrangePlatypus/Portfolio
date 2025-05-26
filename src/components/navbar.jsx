@@ -58,9 +58,9 @@ function Navbar(){
 
 // If screen is smaller than 768px :
             <nav className='font-hahmlet justify-items-start my-4 mx-2'>
-                <button onClick={toggleDropdown} className='text-amber-500'><i className="fa-solid fa-bars fa-xl"></i></button>
+                <button onClick={toggleDropdown} className='text-amber-500 fixed left-6 top-6'><i className="fa-solid fa-bars fa-xl"></i></button>
                 {isOpen && (
-                    <ul role='menu' className='text-left rounded-lg bg-black/80 backdrop-blur-lg py-4 px-6 leading-7 w-[90vw]'>
+                    <ul role='menu' className='text-left rounded-lg bg-black/80 backdrop-blur-lg py-4 px-6 leading-7 w-[90vw] mt-10'>
                         <li className='py-3 w-full border-indigo-50 border-b-1'><Link to="/" onClick={closeDropdown} className={`text-indigo-50 hover:text-amber-500' ${location.pathname === "/" ? 'active_link' : ''}`} role='menu-item'>Accueil</Link></li>
                         <li className='py-3 w-full border-indigo-50 border-b-1'><Link to="/a-propos" onClick={closeDropdown} className={`my-2 text-indigo-50 hover:text-amber-500 ${location.pathname === "/a-propos" ? 'active_link' : ''}`} role='menu-item'>A propos</Link></li>
                         <li className='py-3 w-full border-indigo-50 border-b-1'><Link to="/projets" onClick={closeDropdown} className={`my-2 text-indigo-50 -rotate-90 hover:text-amber-500 ${location.pathname === "/projets" ? 'active_link' : ''}`} role='menu-item'>Projets</Link></li>
